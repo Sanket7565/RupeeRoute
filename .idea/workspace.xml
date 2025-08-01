@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8164d819-6bc4-400b-84ef-c524779f1162" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/JAVA_PROJECTS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/RupeeRoute.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/DTO/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Repository/AuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/src/main/java/com/projects/kafka/kafka_producer/controller/MessageProducerController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="30fwTDp9BtgXtyfNWyYPDnVPD1v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rupeeroute.Auth.Security" />
+      <recent name="com.rupeeroute.Auth.DTO" />
+      <recent name="com.rupeeroute.Auth.Repository" />
+      <recent name="com.rupeeroute.Auth.Service" />
+      <recent name="com.rupeeroute.Auth.Model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rupeeroute.Auth.AuthApplication" />
+      <module name="Auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rupeeroute.Auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8164d819-6bc4-400b-84ef-c524779f1162" name="Changes" comment="" />
+      <created>1754031949515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754031949515</updated>
+    </task>
+    <servers />
+  </component>
+</project>
