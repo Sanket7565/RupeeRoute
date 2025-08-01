@@ -19,6 +19,11 @@ public class CustomUserDetailsService implements UserDetailsService {
         //
         {
             User user = authRepository.findByUsername(username);
+
+            if(user == null)
+            {
+                throw new UsernameNotFoundException("User not found with username: " + username);
+            }
             return new CustomUserDetails(user);
         }
     }

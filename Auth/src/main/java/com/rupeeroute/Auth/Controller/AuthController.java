@@ -16,12 +16,6 @@ public class AuthController
     @Autowired
     AuthService authService;
 
-    @Autowired
-    private AuthenticationManager authManager;
-
-    @Autowired
-    private CustomUserDetailsService userDetailsService;
-
    //http://localhost:8081/api/v1/auth/register
     @PostMapping("/register")
     public ResponseEntity register(@RequestBody User user) {
@@ -30,7 +24,7 @@ public class AuthController
 
 
     // http://localhost:8081/api/v1/auth/login
-    @PostMapping("/login")
+    @GetMapping("/login")
 
     public ResponseEntity ValidateLogin(@RequestBody AuthRequest authRequest) {
         return authService.validateUser(authRequest);

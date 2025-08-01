@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8164d819-6bc4-400b-84ef-c524779f1162" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/JAVA_PROJECTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RupeeRoute.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/DTO/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Service/AuthService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kafka-producer/src/main/java/com/projects/kafka/kafka_producer/controller/MessageProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/rupeeroute/Auth/Security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +26,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -95,5 +90,16 @@
       <updated>1754031949515</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
