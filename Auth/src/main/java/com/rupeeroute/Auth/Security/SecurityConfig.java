@@ -24,7 +24,7 @@ public class SecurityConfig
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.
                 csrf(Customizer->Customizer.disable())
-                .authorizeHttpRequests(request-> request.anyRequest().authenticated())
+                .authorizeHttpRequests(request-> request.requestMatchers("/api/v1/auth/login", "/api/v1/auth/register").permitAll().anyRequest().authenticated())
                 .httpBasic((Customizer.withDefaults()))
                 .sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 
@@ -42,7 +42,7 @@ public class SecurityConfig
     {
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
         provider.setUserDetailsService(userDetailsService);
-        provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // Use BCryptPasswordEncoder for production
+        provider.setPasswordEncoder(new BCryptPasswordEncoder(12)); // Use BCryptPasswordEncoder for production
         return provider;
     }
 }

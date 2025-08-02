@@ -33,10 +33,10 @@ public class AuthService
         return ResponseEntity.ok(user);
     }
 
-    public ResponseEntity validateUser(AuthRequest authRequest)
+    /*public ResponseEntity validateUser(AuthRequest authRequest)
     {
         return null;
-    }
+    }*/
 
 
 }

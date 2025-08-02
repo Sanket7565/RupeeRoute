@@ -24,11 +24,11 @@ public class AuthController
 
 
     // http://localhost:8081/api/v1/auth/login
-    @GetMapping("/login")
+   /* @GetMapping("/login")
 
     public ResponseEntity ValidateLogin(@RequestBody AuthRequest authRequest) {
         return authService.validateUser(authRequest);
-    }
+    }*/
 
 }
 
