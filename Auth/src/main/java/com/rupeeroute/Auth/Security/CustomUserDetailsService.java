@@ -2,8 +2,8 @@ package com.rupeeroute.Auth.Security;
 
 import com.rupeeroute.Auth.Model.User;
 import com.rupeeroute.Auth.Repository.AuthRepository;
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -15,6 +15,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     private AuthRepository authRepository;
 
     @Override
+    @Bean
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //
         {
