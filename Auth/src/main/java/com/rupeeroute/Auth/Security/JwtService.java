@@ -4,6 +4,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
+import jakarta.annotation.PostConstruct;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
@@ -22,7 +23,7 @@ public class JwtService {
     private static String SECRET_KEY = null;
     private static Key key;
 
-
+    @PostConstruct
     public void init() {
         // Generates secret key once during bean initialization
         SECRET_KEY = generateSecretKey();

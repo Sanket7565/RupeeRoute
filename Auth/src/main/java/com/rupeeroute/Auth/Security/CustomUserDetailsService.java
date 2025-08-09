@@ -15,7 +15,6 @@ public class CustomUserDetailsService implements UserDetailsService {
     private AuthRepository authRepository;
 
     @Override
-    @Bean
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //
         {
